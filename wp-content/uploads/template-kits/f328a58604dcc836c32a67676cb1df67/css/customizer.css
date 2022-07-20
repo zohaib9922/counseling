@@ -1,0 +1,220 @@
+/* Kit 62 Custom Styling - use with the Advanced options of the element it affects */
+
+/* Fancy Titles */
+.envato-kit-62-ttl-mixed .elementor-heading-title b {
+    color: #46eeaa;
+    font-weight: bold;
+}
+
+.envato-kit-62-ttl-mixed .elementor-heading-title i {
+    font-weight: normal;
+    text-transform: lowercase;
+    font-family: "Lora", Sans-serif;
+    font-style: italic;
+}
+
+/* Subtitles */
+.envato-kit-62-ttl-green h6, .envato-kit-62-ttl-white h6 {
+    position: relative;
+    width: auto !important;
+    display: inline-block !important;
+}
+
+.envato-kit-62-ttl-green h6:before, .envato-kit-62-ttl-white h6:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    margin: 13px auto 0 -65px;
+    width: 40px;
+    height: 2px;
+}
+
+.envato-kit-62-ttl-green h6:before {
+    background-color: rgb(72, 207, 173);
+}
+
+.envato-kit-62-ttl-white h6:before {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Forms */
+.envato-kit-62-form textarea, .envato-kit-62-form input, .envato-kit-62-form-transparent textarea, .envato-kit-62-form-transparent input {
+    background: rgba(255, 255, 255, 0.3) !important;
+    padding: 22px 35px !important;
+    min-height: 100%;
+}
+
+.envato-kit-62-form input, .envato-kit-62-form-transparent input {
+    height: 100% !important;
+    min-height: 100% !important;
+    vertical-align: middle;
+}
+
+.envato-kit-62-form-solid input, .envato-kit-62-form-solid textarea {
+    padding: 22px 35px !important;
+}
+
+/* Oversize Images */
+.envato-kit-62-oversize {
+    width: 130%;
+}
+
+@media (max-width: 767px) {
+    .envato-kit-62-oversize {
+        width: 100%;
+    }
+
+}
+
+.envato-kit-62-form-transparent button {
+    background: none !important;
+    height: 100%;
+}
+
+.envato-kit-62-btn-transparent .elementor-button {
+    background: transparent !important;
+}
+
+/* Lists */
+.envato-kit-62-list ul {
+    padding-left: 20px;
+}
+
+.envato-kit-62-list ul li {
+    position: relative;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.envato-kit-62-list ul li:before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    left: -20px;
+    top: 13px;
+    border-radius: 100%;
+    background-color: #48cfad;
+}
+
+/* Image Buttons */
+.envato-kit-62-img-btm .elementor-widget {
+    position: static;
+}
+
+.envato-kit-62-img-btm .elementor-testimonial-image {
+    position: absolute;
+    bottom: -105px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+}
+
+/* Transparent sections */
+.envato-kit-62-bg-transparent h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    padding: 15px 0 !important;
+    background: rgba(82, 204, 173, 0.9);
+}
+
+/* Labels */
+.envato-kit-62-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 90px;
+    height: 90px;
+    background: #48cfad;
+}
+
+.envato-kit-62-label strong {
+    font-size: 34px;
+}
+
+.envato-kit-62-label p {
+    margin: 0;
+}
+
+/* FAQ */
+.envato-kit-62-faq .elementor-accordion-item {
+    margin-bottom: 6px;
+}
+
+.envato-kit-62-faq .elementor-tab-title {
+    position: relative;
+}
+
+.envato-kit-62-faq .elementor-accordion-icon-right {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    bottom: 0;
+    margin: auto;
+    display: flex !important;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+/* Fancy Links */
+.envato-kit-62-contact-link a {
+    color: #747373;
+}
+
+/* Fixes */
+.envato-kit-62-testimonials img {
+    margin-top: 20px;
+}
+
+.envato-kit-62-form .elementor-message-success, .envato-kit-62-form-transparent .elementor-message-success, .envato-kit-62-form-solid .elementor-message-success {
+    position: absolute;
+    bottom: -10px;
+    color: #fff;
+    font-family: "Lora", sans-serif;
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.envato-kit-62-form-solid .elementor-message-success {
+    color: #747373;
+}
+
+@media (max-width: 374px) {
+    .envato-kit-62-form .elementor-message-success, .envato-kit-62-form-transparent .elementor-message-success, .envato-kit-62-form-solid .elementor-message-success {
+        bottom: -20px;
+    }
+}
+
+.envato-kit-62-video .elementor-custom-embed-image-overlay:before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #48cfad;
+}
+
+.envato-kit-62-video .elementor-custom-embed-image-overlay:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin: auto 0 auto -8px;
+    border-width: 14px 20px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    width: 10px;
+    height: 10px;
+}
